@@ -48,7 +48,7 @@ Set of tools for performing large-scale automated detection of SSL/TLS man-in-th
 5. Setup MITM proxy as per Section V.C of paper.
 
 6. Run dynamic analysis.
-   1. Set items "adb.prop" file.
+   1. Set items "adb.props" file.
    
     ```
     $ cd ~/SMVHunter/dynamic  
@@ -62,6 +62,6 @@ Set of tools for performing large-scale automated detection of SSL/TLS man-in-th
     $ java -jar smvhunter_dymanic.jar
     ```
 
-7. Perform correlative analysis using data in "correlative_analysis" folder.
+7. Perform correlative analysis using data in "correlative_analysis" folder as per "adb.props".
 
 
