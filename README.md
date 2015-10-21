@@ -52,7 +52,7 @@ Set of tools for performing large-scale automated detection of SSL/TLS man-in-th
    
     ```
     $ cd ~/SMVHunter/dynamic  
-    $ vi adb.prop
+    $ vi adb.props
     ```
 
    2. Execute dynamic analysis
